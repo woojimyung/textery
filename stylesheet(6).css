@@ -222,7 +222,7 @@
         /* The Close Button */
         .close {
 
-        color: #ac2a34;
+        color: black;
         float: right;
         font-size: 28px;
         font-weight: bold;
@@ -354,15 +354,18 @@
         #video1 {display:block;
                 margin: auto;
                 width: 98%;
-                height: auto;
+                height: 200px;
                 margin-top:100px;
               }
         #video2 {display:block;
                       margin:auto;width: 98%;
-                      height: auto;
+                      height: 200px;
+
               }
         #video3 {display:block;
                             margin:auto;width: 98%;
-                            height: auto;
+                            height: 200px;
+
               }
+
   }
