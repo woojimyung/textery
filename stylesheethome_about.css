@@ -199,7 +199,7 @@
   color: white;
   overflow: scroll;*/
   z-index: 3;
-  background-color: #b11928;
+  background-color: lightgray;
   width: 280px;
   height: 440px;
 
@@ -217,7 +217,7 @@
     font-weight: 300;
     font-size: 15px;
     line-height:25px;
-    color: white;
+    color: black;
     z-index: 3;
     width: 250px;
     height: 400px;
@@ -232,7 +232,7 @@
   font-weight: 300;
     font-size: 15px;
     line-height:25px;
-    color: white;}
+    color: black;}
 /* The Close Button */
 .close {
 
@@ -409,10 +409,10 @@ margin-left:auto;
       }
       .content{
       font-family: 'Noto Sans KR', sans-serif;
-
+        font-weight: 400;
         font-size: 13px;
-        line-height:21px;
-        color: white;
+        line-height:20px;
+        color: black;
         z-index: 3;
         width: 190px;
         height: 350px;
@@ -424,9 +424,9 @@ margin-left:auto;
 
       .content2
       {  font-family: 'Noto Sans KR', sans-serif;
-
+        font-weight: 400;
         font-size: 13px;
-        line-height:21px;
-        color: white;}
+        line-height:20px;
+        color: black;}
 
   }
