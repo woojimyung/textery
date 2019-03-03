@@ -282,8 +282,7 @@ cursor: pointer;
 
 @media (min-width:0px) and (max-width:850px)
 {
-  @media (min-width:0px) and (max-width:850px)
-  {
+  
 
     .one:hover {text-decoration: none;}
     .one {opacity: 1;
@@ -503,5 +502,5 @@ cursor: pointer;
   }
 
 
-    
+
   }
