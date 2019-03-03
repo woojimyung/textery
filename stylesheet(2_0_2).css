@@ -160,7 +160,7 @@ padding-bottom: 0px;
 animation: modalContentFadeIn .5s 0s linear forwards;
 }
 .content{
-  font-weight: 300;
+  font-weight: 400;
 font-family: 'Noto Sans KR', sans-serif;
 word-break: keep-all;
 font-size: 15px;
@@ -177,7 +177,7 @@ animation: modalContentFadeIn .5s 0s linear forwards;
 
 .content2
 {  font-family: 'Noto Sans KR', sans-serif;
-font-weight: 300;
+font-weight: 400;
 font-size: 15px;
 line-height:25px;
 color: white;}
@@ -197,7 +197,7 @@ text-decoration: none;
 cursor: pointer;
 }
 
-@media (min-width:0px) and (max-width:600px)
+@media (min-width:0px) and (max-width:850px)
 {
 
   .one:hover {text-decoration: none;}
@@ -310,7 +310,7 @@ animation: modalContentFadeIn .5s 0s linear forwards;
 font-family: 'Noto Sans KR', sans-serif;
   font-weight: 400;
   font-size: 13px;
-  line-height:23px;
+  line-height:20px;
   color: white;
   z-index: 3;
   width: 190px;
@@ -325,7 +325,7 @@ font-family: 'Noto Sans KR', sans-serif;
 {  font-family: 'Noto Sans KR', sans-serif;
   font-weight: 400;
   font-size: 13px;
-  line-height:23px;
+  line-height:20px;
   color: white;}
 
 
