@@ -55,7 +55,7 @@
   right: 40px;
 }
 
-  #계정1, #계정2 {color: white;}
+  #계정1, #계정2 {color: black;}
   #계정1:hover, #계정2:hover {text-decoration: underline;}
 
   #homebanner
@@ -199,7 +199,7 @@
   color: white;
   overflow: scroll;*/
   z-index: 3;
-  background-color: lightgray;
+  background-color: #d8d4ce;
   width: 280px;
   height: 440px;
 
@@ -214,7 +214,7 @@
 }
 .content{
   font-family: 'Noto Sans KR', sans-serif;
-    font-weight: 300;
+    font-weight: 400;
     font-size: 15px;
     line-height:25px;
     color: black;
@@ -229,7 +229,7 @@
 
 .content2
 {  font-family: 'Noto Sans KR', sans-serif;
-  font-weight: 300;
+  font-weight: 400;
     font-size: 15px;
     line-height:25px;
     color: black;}
