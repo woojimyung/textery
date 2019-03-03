@@ -172,7 +172,7 @@ color: white;}
 /* The Close Button */
 .close {
 
-color: #eeece9;
+color: black;
 float: right;
 font-size: 28px;
 font-weight: bold;
@@ -187,7 +187,7 @@ cursor: pointer;
 
 
 
-@media (min-width:0px) and (max-width:600px)
+@media (min-width:0px) and (max-width:850px)
 {
 
   img.homebutton
