@@ -54,7 +54,7 @@
     #myBtn:active, #myBtn:checked {opacity:0;
                   }
 
-      #계정1, #계정2 {color: #ac2a34;}
+      #계정1, #계정2 {color: black;}
       #계정1:hover, #계정2:hover {text-decoration: underline;}
 
 
@@ -235,7 +235,7 @@
         cursor: pointer;
         }
 
-  @media (min-width:0px) and (max-width:600px)
+  @media (min-width:0px) and (max-width:850px)
         {
           .poster {width: 200px;}
           .wrap{width:100%;
@@ -322,7 +322,7 @@
         font-family: 'Noto Sans KR', sans-serif;
         font-weight: 400;
           font-size: 13px;
-          line-height:23px;
+          line-height:20px;
           color: black;
           z-index: 3;
           width: 190px;
@@ -337,7 +337,7 @@
         {  font-family: 'Noto Sans KR', sans-serif;
           font-weight: 400;
           font-size: 13px;
-          line-height:23px;
+          line-height:20px;
           color: black;}
 
 
