@@ -145,7 +145,7 @@ animation: modalContentFadeIn .5s 0s linear forwards;
 }
 .content{
 font-family: 'Noto Sans KR', sans-serif;
-font-weight: 300;
+font-weight: 400;
 word-break: keep-all;
 font-size: 15px;
 line-height:25px;
@@ -161,7 +161,7 @@ animation: modalContentFadeIn .5s 0s linear forwards;
 
 .content2
 {  font-family: 'Noto Sans KR', sans-serif;
-font-weight: 300;
+font-weight: 400;
 font-size: 15px;
 line-height:25px;
 color: black;}
