@@ -316,5 +316,64 @@
        img.homebutton
        {width: 60px;}
 
+       .modal {
+         display: none; /* Hidden by default */
+          /* Stay in place */
+         z-index: 1; /* Sit on top */
+         padding-top: 20px; /* Location of the box */
+         left: 0;
+         top: 0;
+         right: 10px;
+         width: 100%; /* Full width */
+         height: 100%; /* Full height */
+         overflow: auto; /* Enable scroll if needed */
+         background-color: transparent; /* Fallback color */
+
+       }
+
+       /* Modal Content */
+       .modal-content {/*font-family: 'Nanum Myeongjo', serif;
+
+       font-size: 40px;
+       line-height:60px;
+       color: white;
+       overflow: scroll;*/
+       z-index: 3;
+       background-color: #b11928;
+       width: 200px;
+       height: 400px;
+
+       position: fixed;
+       top: 15%;
+       bottom: ;
+       padding-left: 10px;
+       padding-right: 10px;
+       padding-top: 0px;
+       padding-bottom: 0px;
+       animation: modalContentFadeIn .5s 0s linear forwards;
+       }
+       .content{
+       font-family: 'Noto Sans KR', sans-serif;
+       font-weight: 400;
+       font-size: 13px;
+       line-height:20px;
+       color: white;
+       z-index: 3;
+       width: 190px;
+       height: 350px;
+       overflow: scroll;
+       position: left;
+
+       animation: modalContentFadeIn .5s 0s linear forwards;
+       }
+
+       .content2
+       {  font-family: 'Noto Sans KR', sans-serif;
+       font-weight: 400;
+       font-size: 13px;
+       line-height:20px;
+       color: white;}
+
+
 
     }
