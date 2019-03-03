@@ -182,7 +182,7 @@ cursor: pointer;
 }
 
 
-/*여기서부터(5)*/
+
 
     body {
       background-color: #ab1e29;
@@ -279,10 +279,106 @@ cursor: pointer;
     display: none;
   }
 
+@media (min-width: 851px)
+{
+body {
+  background-color: #ab1e29;
+  cursor:url(fullg.cur),auto;
+}
 
+.frame img{
+  z-index: 3;
+  position: absolute;
+  width: 900px;
+  height: auto;
+  left: 10px;
+  top: -20px;
+}
+
+.slide {
+  z-index: 2;
+  position: absolute;
+  width: 900px;
+  height: auto;
+  left: 10px;
+  top: -20px;
+}
+
+.slide > img {
+  width: 100%;
+  height: auto;
+  position: absolute;
+  right: 0px;
+}
+
+.plink {
+  position: fixed;
+  right: 140px;
+  top: 140px;
+  font-family: 'Nanum Myeongjo', serif;
+  font-weight: 600;
+  text-align: center;
+  font-size: 18px;
+  line-height: 28px;
+  display: block;
+  color: black;
+  user-select: none;
+}
+
+/* Next & previous buttons */
+.prev, .next {
+  z-index: 5;
+  cursor:url(halfg.cur);
+  position: fixed;
+  width: auto;
+  color: #e7e4e2;
+  top: 100px;
+  font-family: 'Nanum Myeongjo', serif;
+  font-weight: 600;
+  text-align: center;
+  font-size:18px;
+  line-height: 28px;
+  display: block;
+  user-select: none;
+}
+
+.prev {right: 250px;}
+.next {right: 140px;}
+
+.prev:hover, .next:hover {
+  color: transparent;
+}
+
+.numbertext {
+color: #e7e4e2;
+position: fixed;
+right: 140px;
+top: 590px;
+font-family: 'Nanum Myeongjo', serif;
+font-weight: 500;
+text-align: center;
+font-size:18px;
+line-height: 28px;
+display: block;
+
+}
+
+a {text-decoration:none;
+cursor:url(halfg.cur),auto;
+color: #e7e4e2;
+}
+
+a:hover {
+color: transparent;
+}
+
+.slide{
+display: none;
+}
+}
 @media (min-width:0px) and (max-width:850px)
 {
-  
+
 
     .one:hover {text-decoration: none;}
     .one {opacity: 1;
