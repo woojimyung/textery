@@ -395,7 +395,7 @@ margin-left:auto;
       color: white;
       overflow: scroll;*/
       z-index: 3;
-      background-color: black;
+      background-color: #d8d4ce;
       width: 200px;
       height: 400px;
       position: fixed;
