@@ -13,6 +13,8 @@
 
   }
 }
+
+
       #home {color:black;
       text-decoration:none;}
       #button {position: fixed;
@@ -31,8 +33,9 @@
       top: 100px;
       right: 10px;}
       #cat {position: fixed;
+        z-index: 30;
+      background-color: #ab1e29;
       border: 0px;
-      background-color: #efebe8;
       width: ;
       height: ;
       top: 0px;
@@ -51,12 +54,13 @@
       bottom: 30px;
       right: 40px;
     }
-    #myBtn:hover {opacity: 0;}
-    #myBtn:active, #myBtn:checked {opacity:0;
-                  }
+      #myBtn:hover {opacity: 0;}
+      #myBtn:active, #myBtn:checked {opacity:0;
+                    }
 
-
-      #계정1, #계정2 {color: white;}
+      #계정1, #계정2 {color: black;
+        text-decoration:none;
+        cursor:url(halfg.cur),auto;}
       #계정1:hover, #계정2:hover {text-decoration: underline;}
 
       #homebanner
@@ -68,17 +72,14 @@
 
 @font-face { font-family: 'Nanum Myeongjo', serif; }
 
-  body {background-color: #efebe8;cursor:url(fullr.cur),auto;}
-  a {text-decoration:none;
-  cursor:url(halfr.cur),auto;}
   h1 {padding:5px;
   display:block;
   width:90%;
   text-align: center;
   margin:auto;
-  margin-top: 100px;
+  margin-top: 50px;
   margin-bottom:30px;
-  font-size:50px;
+  font-size:45px;
   word-break:break-all;
   font-family: 'Nanum Myeongjo', serif;
   font-weight: 700;
@@ -96,56 +97,17 @@
   font-size:20px;
   line-height: 35px;}
 
-p{display:block;
-}
 .카 {color:black;}
 .카:hover {opacity:0;}
 
-/*.wrap{width:100%;
-  overflow-x:scroll;
-  white-space:nowrap;
-  display: block;
-  margin-top: 100px;
-  }*/
+.one:hover {opacity: 1;}
+.one {opacity: 0;color:black;}
 
-
-
-#격:hover {color: transparent;}
-#격 {color:#81756f;}
-#궁:hover {color:transparent;}
-#궁 {color:#897e77;}
-#재:hover {color:transparent;}
-#재 {color:#92887f;}
-#나:hover {color:transparent;}
-#나 {color:#9b9288;}
-#실:hover {color:transparent;}
-#실 {color:#a49e90;}
-#하:hover {color:transparent;}
-#하 {color:#afab9d;}
-#애:hover {color:transparent;}
-#애 {color:#bab6a5;}
-#지:hover {color:transparent;}
-#지 {color:#c3c3b1;}
-#혼:hover {color:transparent;}
-#혼 {color:#cdcbb7;}
-#셀:hover {color:transparent;}
-#셀 {color:#cabca6;}
-#따:hover {color:transparent;}
-#따 {color:#c8a88f;}
-#단:hover {color:transparent;}
-#단 {color:#c3937a;}
-#시:hover {color:transparent;}
-#시 {color:#bf7f67;}
-#기:hover {color:transparent;}
-#기 {color:#ba6b55;}
-#보:hover {color:transparent;}
-#보 {color:#b75443;}
-#모:hover {color:transparent;}
-#모 {color:#b43b35;}
-#그:hover {color:transparent;}
-#그 {color:#b0232b;}
+.find {color:black}
+.find:hover {opacity: 0;}
 
 .modal {
+  z-index: 10;
   display: none; /* Hidden by default */
    /* Stay in place */
   z-index: 1; /* Sit on top */
@@ -167,8 +129,8 @@ font-size: 40px;
 line-height:60px;
 color: white;
 overflow: scroll;*/
-z-index: 3;
-background-color: #b11928;
+z-index: 11;
+background-color: #efebe8;
 width: 280px;
 height: 440px;
 
@@ -184,15 +146,16 @@ animation: modalContentFadeIn .5s 0s linear forwards;
 .content{
 font-family: 'Noto Sans KR', sans-serif;
 font-weight: 300;
+word-break: keep-all;
 font-size: 15px;
 line-height:25px;
-color: white;
+color: black;
 z-index: 3;
 width: 250px;
 height: 400px;
 overflow: auto;
 position: center;
-word-break: keep-all;
+
 animation: modalContentFadeIn .5s 0s linear forwards;
 }
 
@@ -201,11 +164,11 @@ animation: modalContentFadeIn .5s 0s linear forwards;
 font-weight: 300;
 font-size: 15px;
 line-height:25px;
-color: white;}
+color: black;}
 /* The Close Button */
 .close {
 
-color: #eeece9;
+color: black;
 float: right;
 font-size: 28px;
 font-weight: bold;
@@ -213,19 +176,120 @@ font-weight: bold;
 
 .close:hover,
 .close:focus {
-color: #000;
+color: #ac2a34;
 text-decoration: none;
 cursor: pointer;
 }
 
-.wrap {width: auto;
-  overflow-x:scroll;
-  white-space:nowrap;
-  display: block;
-  margin-top: 100px;}
 
-  @media (min-width:0px) and (max-width:600px)
+/*여기서부터(5)*/
+
+    body {
+      background-color: #ab1e29;
+      cursor:url(fullg.cur),auto;
+    }
+
+    .frame img{
+      z-index: 3;
+      position: absolute;
+      width: 900px;
+      height: auto;
+      left: 10px;
+      top: -20px;
+    }
+
+    .slide {
+      z-index: 2;
+      position: absolute;
+      width: 900px;
+      height: auto;
+      left: 10px;
+      top: -20px;
+    }
+
+    .slide > img {
+      width: 100%;
+      height: auto;
+      position: absolute;
+      right: 0px;
+    }
+
+    .plink {
+      position: fixed;
+      right: 140px;
+      top: 140px;
+      font-family: 'Nanum Myeongjo', serif;
+      font-weight: 600;
+      text-align: center;
+      font-size: 18px;
+      line-height: 28px;
+      display: block;
+      color: black;
+      user-select: none;
+    }
+
+    /* Next & previous buttons */
+    .prev, .next {
+      z-index: 5;
+      cursor:url(halfg.cur);
+      position: fixed;
+      width: auto;
+      color: #e7e4e2;
+      top: 100px;
+      font-family: 'Nanum Myeongjo', serif;
+      font-weight: 600;
+      text-align: center;
+      font-size:18px;
+      line-height: 28px;
+      display: block;
+      user-select: none;
+    }
+
+    .prev {right: 250px;}
+    .next {right: 140px;}
+
+    .prev:hover, .next:hover {
+      color: transparent;
+    }
+
+    .numbertext {
+    color: #e7e4e2;
+    position: fixed;
+    right: 140px;
+    top: 590px;
+    font-family: 'Nanum Myeongjo', serif;
+    font-weight: 500;
+    text-align: center;
+    font-size:18px;
+    line-height: 28px;
+    display: block;
+
+  }
+
+  a {text-decoration:none;
+  cursor:url(halfg.cur),auto;
+  color: #e7e4e2;
+  }
+
+  a:hover {
+    color: transparent;
+  }
+
+  .slide{
+    display: none;
+  }
+
+
+@media (min-width:0px) and (max-width:850px)
+{
+  @media (min-width:0px) and (max-width:850px)
   {
+
+    .one:hover {text-decoration: none;}
+    .one {opacity: 1;
+          color: black;}
+    .one:visited {color: #b60c20;}
+
     .poster {width: 200px;}
     .wrap{width:100%;
       overflow-x:scroll;
@@ -234,15 +298,13 @@ cursor: pointer;
       margin-top: 100px;}
 
 
-      #cat {position: fixed;
+      #cat {
+        position: fixed;
       border: 0px;
-      background-color: #efebe8;
-      width: ;
-      height: ;
+      background-color: #ab1e29;
       top: 0px;
-      left: 0;
-      right: 0;
-
+      left: 0px;
+      right: 0px;
       }
 
       h3 {font-family: 'Nanum Myeongjo', serif;
@@ -250,25 +312,36 @@ cursor: pointer;
       font-size:25px;}
 
 
-      h1 {padding:5px;
-      display:block;
-      width:90%;
-      text-align: left;
-      margin:auto;
-      margin-top: 50px;
-      margin-bottom:0px;
-      font-size:28px;
-      word-break:break-all;
-      font-family: 'Nanum Myeongjo', serif;
-      font-weight: 700;
-      line-height:47px;}
+      h1 {
+        font-size: 35px;
+        line-height: 50px;
+        margin-bottom:20px;
+        margin-top: 20px;
+        word-break:keep-all;
+        display: block;
+        width: 90%;
+        text-align: left;
+        font-weight: 700;
+        }
 
-      h2 {font-family: 'Nanum Myeongjo', serif;
-      display:block;
-      text-align:center;
-      font-size:20px;
-      line-height: 30px;
-      }
+        h5 {
+          opacity:0;
+          font-family: 'Noto Sans KR';
+        text-align: center;
+        font-size:0px;
+        display: block;
+        margin:0px;
+        margin-top: -50px;
+        color: #b60c20;
+        right: auto;
+        left: auto;}
+
+          #homebanner
+          {display: block;
+          margin: auto;
+          margin-top: 100px;
+          margin-bottom: 65px;}
+
 
       #myBtn {position: fixed;
         width: 15%;
@@ -279,8 +352,8 @@ cursor: pointer;
       right: 20px;
     }
 
-
     .modal {
+      z-index: 10;
       display: none; /* Hidden by default */
        /* Stay in place */
       z-index: 1; /* Sit on top */
@@ -295,33 +368,33 @@ cursor: pointer;
 
     }
 
-  /* Modal Content */
-  .modal-content {/*font-family: 'Nanum Myeongjo', serif;
+    /* Modal Content */
+    .modal-content {/*font-family: 'Nanum Myeongjo', serif;
 
-  font-size: 40px;
-  line-height:60px;
-  color: white;
-  overflow: scroll;*/
-  z-index: 3;
-  background-color: #b11928;
-  width: 200px;
-  height: 400px;
-
-  position: fixed;
-  top: 15%;
-  bottom: ;
-  padding-left: 10px;
-  padding-right: 10px;
-  padding-top: 0px;
-  padding-bottom: 0px;
-  animation: modalContentFadeIn .5s 0s linear forwards;
-  }
-  .content{
-  font-family: 'Noto Sans KR', sans-serif;
-  font-weight: 400;
-    font-size: 13px;
-    line-height:23px;
+    font-size: 40px;
+    line-height:60px;
     color: white;
+    overflow: scroll;*/
+    z-index: 11;
+    background-color: #efebe8;
+    width: 200px;
+    height: 400px;
+
+    position: fixed;
+    top: 15%;
+    bottom: ;
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-top: 0px;
+    padding-bottom: 0px;
+    animation: modalContentFadeIn .5s 0s linear forwards;
+    }
+    .content{
+    font-family: 'Noto Sans KR', sans-serif;
+    font-weight: 400;
+    font-size: 13px;
+    line-height:20px;
+    color: black;
     z-index: 3;
     width: 190px;
     height: 350px;
@@ -329,100 +402,106 @@ cursor: pointer;
     position: left;
 
     animation: modalContentFadeIn .5s 0s linear forwards;
-  }
+    }
 
-  .content2
-  {  font-family: 'Noto Sans KR', sans-serif;
+    .content2
+    {  font-family: 'Noto Sans KR', sans-serif;
     font-weight: 400;
     font-size: 13px;
-    line-height:23px;
-    color: white;}
+    line-height:20px;
+    color: black;}
 
 
-
-    img.homebutton
-    {width: 60px;}
-
-  #권혁규
-  {padding:5px;
-  display:block;
-  width:90%;
-  text-align: center;
-  margin:auto;
-  margin-top: 40px;
-  margin-bottom:30px;
-  font-size:28px;
-  word-break:break-all;
-  font-family: 'Nanum Myeongjo', serif;
-  line-height:47px;}
-  .권혁규0 {
-    margin-top: 0px;
-    padding:5px;
-  display:block;
-  width:90%;
-  text-align: center;
+  .gif{display: block;
   margin: auto;
-  margin-bottom:0px;
-  font-size:28px;
-  word-break:break-all;
+  margin-top: 100px;
+  line-height: 28px;}
+
+  img.homebutton
+  {width: 60px;}
+
+  .frame img{
+    z-index: 3;
+    width: 500px;
+    height: auto;
+    left: -218px;
+    top: 0px;
+  }
+
+  .slide {
+    z-index: 2;
+    position: absolute;
+    width: 500px;
+    height: auto;
+    left: -218px;
+    top: 0px;
+  }
+
+  .slide > img {
+    width: 100%;
+    height: auto;
+    position: absolute;
+    right: 0px;
+  }
+
+  .plink {
+    position: fixed;
+    right: 20px;
+    top: 90px;
+    font-family: 'Nanum Myeongjo', serif;
+    font-weight: 600;
+    text-align: center;
+    font-size: 11px;
+    line-height: 28px;
+    display: block;
+    color: black;
+    user-select: none;
+    cursor:url(halfg.cur);
+  }
+
+  /* Next & previous buttons */
+  .prev {
+    z-index: 5;
+    cursor:url(halfg.cur);
+    position: fixed;
+    color: #e7e4e2;
+    top: 70px;
+    right: 85px;
+    font-family: 'Nanum Myeongjo', serif;
+    font-weight: 600;
+    text-align: center;
+    font-size:11px;
+    line-height: 20px;
+    display: block;
+    user-select: none;}
+   .next {
+    z-index: 5;
+    cursor:url(halfg.cur);
+    position: fixed;
+    color: #e7e4e2;
+    top: 70px;
+    right: 20px;
+    font-family: 'Nanum Myeongjo', serif;
+    font-weight: 600;
+    text-align: center;
+    font-size:11px;
+    line-height: 20px;
+    display: block;
+    user-select: none;
+  }
+
+  .numbertext {
+    position: fixed;
+  color: #e7e4e2;
+  top: 140px;
+  right: 20px;
   font-family: 'Nanum Myeongjo', serif;
-  line-height:47px;}
-  #김아정
-  {padding:5px;
-  display:block;
-  width:90%;
-  text-align: left;
-  margin:auto;
-  margin-top: 50px;
-  margin-bottom:30px;
-  font-size:28px;
-  word-break:break-all;
-  font-family: 'Nanum Myeongjo', serif;
-  line-height:47px;}
-  #박도현
-  {padding:5px;
-  display:block;
-  width:90%;
-  text-align: left;
-  margin:auto;
-  margin-top: 50px;
-  margin-bottom:30px;
-  font-size:28px;
-  word-break:break-all;
-  font-family: 'Nanum Myeongjo', serif;
-  line-height:47px;}
-  #이사은
-  {padding:5px;
-  display:block;
-  width:90%;
+  font-weight: 500;
   text-align: center;
-  margin:auto;
-  margin-top: 50px;
-  margin-bottom:30px;
-  font-size:28px;
-  word-break:break-all;
-  font-family: 'Nanum Myeongjo', serif;
-  line-height:47px;}
-  #백윤주
-  {padding:5px;
-  display:block;
-  width:90%;
-  text-align: center;
-  margin:auto;
-  margin-top: 50px;
-  margin-bottom:0px;
-  font-size:28px;
-  word-break:break-all;
-  font-family: 'Nanum Myeongjo', serif;
-  line-height:47px;}
-
-  h4 {font-family: 'Nanum Myeongjo', serif;
-  text-align: center;
-  font-size:10px;
-  line-height: 20px;
-  bottom: 5px;}
+  font-size: 10px;
+  line-height: 28px;
+  }
 
 
-
-
+    
   }
