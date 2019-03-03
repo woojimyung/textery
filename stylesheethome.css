@@ -156,7 +156,7 @@
       }
       .content{
       font-family: 'Noto Sans KR', sans-serif;
-      font-weight: 300;
+      font-weight: 400;
       word-break: keep-all;
       font-size: 15px;
       line-height:25px;
@@ -172,7 +172,7 @@
 
       .content2
       {  font-family: 'Noto Sans KR', sans-serif;
-      font-weight: 300;
+      font-weight: 400;
       font-size: 15px;
       line-height:25px;
       color: white;}
@@ -193,7 +193,7 @@
       cursor: pointer;
       }
 
-@media (min-width:0px) and (max-width:600px)
+@media (min-width:0px) and (max-width:850px)
 {
 
   body {background-color: #eeece9}
@@ -271,9 +271,9 @@
   }
   .content{
   font-family: 'Noto Sans KR', sans-serif;
-
+  font-weight: 400;
     font-size: 13px;
-    line-height:21px;
+    line-height:20px;
     color: white;
     z-index: 3;
     width: 190px;
@@ -286,9 +286,9 @@
 
   .content2
   {  font-family: 'Noto Sans KR', sans-serif;
-
+    font-weight: 400;
     font-size: 13px;
-    line-height:21px;
+    line-height:20px;
     color: white;}
 
   img.homebutton
