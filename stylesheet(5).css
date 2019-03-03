@@ -517,7 +517,7 @@ display: none;
 
   .frame img{
     z-index: 3;
-    width: 500px;
+    width: 445px;
     height: auto;
     left: -218px;
     top: 0px;
@@ -526,7 +526,7 @@ display: none;
   .slide {
     z-index: 2;
     position: absolute;
-    width: 500px;
+    width: 445px;
     height: auto;
     left: -218px;
     top: 0px;
@@ -542,16 +542,17 @@ display: none;
   .plink {
     position: fixed;
     right: 20px;
-    top: 93px;
+    top: 80px;
     font-family: 'Nanum Myeongjo', serif;
     font-weight: 600;
     text-align: center;
-    font-size: 11px;
+    font-size: 15px;
     line-height: 28px;
     display: block;
     color: black;
     user-select: none;
     cursor:url(halfg.cur);
+    font-weight: 700;
   }
 
   /* Next & previous buttons */
@@ -560,35 +561,37 @@ display: none;
     cursor:url(halfg.cur);
     position: fixed;
     color: #e7e4e2;
-    top: 70px;
+    top: 50px;
     right: 110px;
     font-family: 'Nanum Myeongjo', serif;
     font-weight: 700;
     text-align: center;
     font-size:15px;
-    line-height: 20px;
+    line-height: 28px;
     display: block;
-    user-select: none;}
+    user-select: none;
+  font-weight: 700;}
    .next {
     z-index: 5;
     cursor:url(halfg.cur);
     position: fixed;
     color: #e7e4e2;
-    top: 70px;
+    top: 50px;
     right: 20px;
     font-family: 'Nanum Myeongjo', serif;
     font-weight: 700;
     text-align: center;
     font-size:15px;
-    line-height: 20px;
+    line-height: 28px;
     display: block;
     user-select: none;
+    font-weight: 700;
   }
 
   .numbertext {
     position: fixed;
   color: #e7e4e2;
-  top: 140px;
+  top: 83%;
   right: 20px;
   font-family: 'Nanum Myeongjo', serif;
   font-weight: 600;
