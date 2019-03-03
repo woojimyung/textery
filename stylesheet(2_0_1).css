@@ -195,7 +195,7 @@ text-decoration: none;
 cursor: pointer;
 }
 
-@media (min-width:0px) and (max-width:600px)
+@media (min-width:0px) and (max-width:850px)
 {
 
   .one:hover {text-decoration: none;}
