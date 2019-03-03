@@ -111,16 +111,31 @@
     .text {
 
         font-family: 'Nanum Myeongjo', serif;
-        font-size: 30px;
-        line-height: 50px;
-        width:62%;
+        font-size: 35px;
+        line-height: 60px;
+        width:80%;
         display:block;
         margin:auto;
         margin-top: 30px;
         text-align:left;
-        word-break: break-all;
+        word-break:keep-all;
         font-weight:600;
       }
+
+      .text_g {
+
+          font-family: 'Nanum Myeongjo', serif;
+          font-size: 35px;
+          line-height: 60px;
+          width:80%;
+          display:block;
+          margin:auto;
+          margin-top: 0px;
+          margin-bottom:100px;
+          text-align:left;
+          word-break:keep-all;
+          font-weight:600;
+        }
 
         .wrap {width: 180px;
           overflow-x:scroll;
@@ -128,6 +143,15 @@
           display: block;
           margin: auto;
           margin-top: 150px;}
+        .wrap2 {width: 90%;
+            height: auto;
+            overflow-x:scroll;
+            white-space: nowrap;
+            display: block;
+            margin: auto;
+            margin-top: 100px;}
+            .goods
+            {width:800px;}
 
           .gggseries
           {width:120px;}
@@ -140,7 +164,7 @@
             display:block;
             margin:auto;
             margin-top: 0px;
-            margin-bottom: 200px;
+            margin-bottom: 50px;
             text-align:center;
             word-break: break-all;
             font-weight:600;
@@ -238,14 +262,9 @@ margin-left:auto;
   margin-right:auto;margin-left:auto;
   margin-top:100px;
   margin-bottom:100px}
-.goods
-{width:85%; display:block;
-  margin-right:auto;
-  margin-left:auto;
-  margin-top: 100px;
-  margin-bottom:10px;}
 
-@media (min-width:0px) and (max-width:600px)
+
+@media (min-width:0px) and (max-width:850px)
   {
 
     #cat {font-family: 'Nanum Myeongjo', serif;
@@ -262,18 +281,31 @@ margin-left:auto;
 
     .text {
         font-family: 'Nanum Myeongjo', serif;
-        font-size: 22px;
-        line-height: 34px;
-        width:80%;
+        font-size: 21px;
+        line-height: 32px;
+        width:83%;
         display:block;
         margin:auto;
-        margin-top: 30px;
+        margin-top: 10px;
         text-align:left;
         word-break: break-all;
         font-weight:600;
       }
 
-
+      .text_g
+      {
+          font-family: 'Nanum Myeongjo', serif;
+          font-size: 21px;
+          line-height: 32px;
+          width:83%;
+          display:block;
+          margin:auto;
+          margin-top: 0px;
+          margin-bottom: 100px;
+          text-align:left;
+          word-break: break-all;
+          font-weight:600;
+        }
 
   .copyright
   {font-family: 'Nanum Myeongjo', serif; text-align:left;
@@ -290,7 +322,7 @@ margin-left:auto;
           width:90%;
           display: block;
           margin: auto;
-          margin-bottom: 100px;
+          margin-bottom: 50px;
           font-weight:600;
         }
       .wrap {width: 100px;
@@ -300,6 +332,14 @@ margin-left:auto;
         margin: auto;
         margin-top: 100px;}
 
+      .wrap2 {width: 90%;
+        overflow-x:scroll;
+        white-space: nowrap;
+        display: block;
+        margin: auto;
+        margin-top: 50px;}
+        .goods
+        {width:290px;}
         .gggseries
         {width:80px;}
 
@@ -308,11 +348,7 @@ margin-left:auto;
           margin:auto;
           margin-top:30px;
           margin-bottom:30px}
-        .goods
-        {width:100%; display:block;
-          margin-right:auto;
-          margin-left:auto;
-          margin-bottom:20px;}
+
 
       h1 {
         width:80px;
